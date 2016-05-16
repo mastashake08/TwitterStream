@@ -14,7 +14,7 @@
                 <div class="title">
                   <ul id="tweets"></ul>
                   <hr>
-                  <button class="btn btn-success" onclick="getStream()">Start Stream</button> <button class="btn btn-danger">Stop Stream</button></div>
+                  <button class="btn btn-success" onclick="getStream()">Start Stream</button> <button class="btn btn-danger" onclick="stopStream()">Stop Stream</button></div>
             </div>
         </div>
     </body>
