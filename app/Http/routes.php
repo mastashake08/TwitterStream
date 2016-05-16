@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('start-stream', 'StreamController@start');
+Route::get('stop-stream', 'StreamController@stop');
