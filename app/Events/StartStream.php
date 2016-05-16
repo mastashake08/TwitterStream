@@ -6,7 +6,7 @@ use App\Events\Event;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 
-class StartStream extends Event
+class StartStream extends Event implements ShouldBroadcast
 {
     use SerializesModels;
 
@@ -27,6 +27,6 @@ class StartStream extends Event
      */
     public function broadcastOn()
     {
-        return [];
+        return ['start-stream'];
     }
 }
