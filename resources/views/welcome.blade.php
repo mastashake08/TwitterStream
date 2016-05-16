@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Laravel Twitter Stream</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <script src="js/all.js"></script>
 
         <style>
             html, body {
@@ -38,7 +39,10 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">
+                  <ul id="tweets"></ul>
+                  <hr>
+                  <button>Start Stream</button></div>
             </div>
         </div>
     </body>
